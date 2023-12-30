@@ -10,7 +10,7 @@ $(document).ready(function () {
     $('.modal,.modal-backdrop').remove();
     $('body').removeClass('modal-open');
 
-    var curr = new Date;
+    var curr = new Date; 
     var first = curr.getDate() - curr.getDay();
 
     var firstday = new Date(curr.setDate(first));
