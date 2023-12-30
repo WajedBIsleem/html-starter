@@ -17,7 +17,7 @@ $(document).ready(function () {
     var lastday = new Date(curr.setDate(first + 4));
 
 
-    $('#wrapper').html(writeHijri(firstday) + " الى " + writeHijri(lastday));
+    $('#wrapper').html(writeHijri(firstday) + " واجد " + writeHijri(lastday));
 
     $.ajax({
         type: "POST",
